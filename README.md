@@ -1,21 +1,22 @@
-# coa4f4ae0bba4a49ebe11d2fd
+# Unit Conversion Tool
 
-Quick start:
+A simple web-based unit conversion tool that converts various units of length, volume, and mass. This tool allows you to easily convert values between different units based on predefined conversion ratios.
 
-```
-$ npm install
-$ npm start
-````
+## Usage
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+1. Open the `index.html` file in a web browser.
+2. Enter a value in the input field for the unit you want to convert.
+3. Click the "Convert" button to see the converted values.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## Conversion Ratios
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+- 1 meter = 3.281 feet
+- 1 liter = 0.264 gallon
+- 1 kilogram = 2.204 pounds
 
-Happy Coding!
+## Project Structure
+
+- `index.html`: The main HTML file containing the user interface elements.
+- `styles.css`: The CSS file that styles the user interface.
+- `script.js`: The JavaScript file that handles the conversion logic and user interactions.
+
